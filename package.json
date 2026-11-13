@@ -1,0 +1,13 @@
+{
+  "name": "turfpro-html-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Turf website + turf management system — complete HTML/CSS/JS template (no backend).",
+  "type": "module",
+  "scripts": {
+    "build": "node build/build.mjs",
+    "check": "node build/check-links.mjs",
+    "serve": "node build/serve.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

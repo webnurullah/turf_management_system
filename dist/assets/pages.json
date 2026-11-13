@@ -1,0 +1,1130 @@
+[
+ {
+  "out": "account/login.html",
+  "title": "Log in",
+  "layout": "auth",
+  "group": ""
+ },
+ {
+  "out": "account/signup.html",
+  "title": "Sign Up",
+  "layout": "auth",
+  "group": ""
+ },
+ {
+  "out": "account/otp.html",
+  "title": "Verify OTP",
+  "layout": "auth",
+  "group": ""
+ },
+ {
+  "out": "account/forgot-password.html",
+  "title": "Forgot Password",
+  "layout": "auth",
+  "group": ""
+ },
+ {
+  "out": "account/complete-profile.html",
+  "title": "Complete Profile",
+  "layout": "auth",
+  "group": ""
+ },
+ {
+  "out": "account/index.html",
+  "title": "My Account",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/bookings.html",
+  "title": "My Bookings",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/booking-detail.html",
+  "title": "Booking Details",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/payments.html",
+  "title": "Payments & Invoices",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/invoice.html",
+  "title": "Tax Invoice",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/wallet.html",
+  "title": "Wallet & Loyalty",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/memberships.html",
+  "title": "Memberships & Packages",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/teams.html",
+  "title": "My Teams",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/team-detail.html",
+  "title": "Dhanmondi Strikers",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/open-match-invitations.html",
+  "title": "Open Match Invitations",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/referrals.html",
+  "title": "Referrals",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/coupons.html",
+  "title": "My Coupons",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/reviews.html",
+  "title": "Reviews & Feedback",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/notifications.html",
+  "title": "Notifications",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/profile.html",
+  "title": "Profile",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/notification-preferences.html",
+  "title": "Notification Preferences",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/security.html",
+  "title": "Account Security",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/settings.html",
+  "title": "Account Settings",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/data-export.html",
+  "title": "Data Export",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "account/delete-account.html",
+  "title": "Delete Account",
+  "layout": "account",
+  "group": ""
+ },
+ {
+  "out": "admin/settings-business.html",
+  "title": "Business Settings",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/booking-rules.html",
+  "title": "Booking Rules",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/payment-gateways.html",
+  "title": "Payment Gateways",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/notifications.html",
+  "title": "Notifications",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/integrations.html",
+  "title": "Integrations & API",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/permissions.html",
+  "title": "Permissions",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/data-import.html",
+  "title": "Data Import",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/backups.html",
+  "title": "Backups",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/system-health.html",
+  "title": "System Health",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/cms-homepage.html",
+  "title": "Homepage Sections",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/cms-gallery.html",
+  "title": "Gallery & Media",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/cms-editor.html",
+  "title": "Page Editor",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/walk-ins.html",
+  "title": "Walk-ins",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/waitlist.html",
+  "title": "Waitlist",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/open-matches.html",
+  "title": "Open Matches",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/support-tickets.html",
+  "title": "Support Tickets",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/branches.html",
+  "title": "Branches",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/facilities.html",
+  "title": "Facilities",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/maintenance.html",
+  "title": "Maintenance",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/assets.html",
+  "title": "Assets",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/incidents.html",
+  "title": "Incidents & Injuries",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/customers.html",
+  "title": "Customers",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/teams.html",
+  "title": "Teams",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/corporate-accounts.html",
+  "title": "Corporate Accounts",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/loyalty.html",
+  "title": "Loyalty",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/memberships.html",
+  "title": "Memberships",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/packages.html",
+  "title": "Packages",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/coupons.html",
+  "title": "Coupons",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/campaigns.html",
+  "title": "Campaigns",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/reviews.html",
+  "title": "Reviews",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/referrals.html",
+  "title": "Referrals",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/coaches.html",
+  "title": "Coaches",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/students.html",
+  "title": "Students",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/events.html",
+  "title": "Events",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/tournaments.html",
+  "title": "Tournaments",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/fixtures.html",
+  "title": "Fixtures",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/sponsors.html",
+  "title": "Sponsors",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/items.html",
+  "title": "Items",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/stock.html",
+  "title": "Stock",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/suppliers.html",
+  "title": "Suppliers",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/purchase-orders.html",
+  "title": "Purchase Orders",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/rentals.html",
+  "title": "Rentals",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/payments.html",
+  "title": "Payments",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/refunds.html",
+  "title": "Refunds",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/wallets.html",
+  "title": "Wallets",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/expenses.html",
+  "title": "Expenses",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/corporate-invoices.html",
+  "title": "Corporate Invoices",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/staff.html",
+  "title": "Staff Master",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/shifts.html",
+  "title": "Shifts & Roster",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/attendance.html",
+  "title": "Attendance",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/leave.html",
+  "title": "Leave",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/tasks.html",
+  "title": "Tasks",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/cms-pages.html",
+  "title": "Pages",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/cms-blog.html",
+  "title": "Blog",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/cms-faq.html",
+  "title": "FAQ",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/cms-testimonials.html",
+  "title": "Testimonials",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/cms-offers.html",
+  "title": "Offers (website)",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/cms-legal.html",
+  "title": "Legal Pages",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/cms-seo.html",
+  "title": "SEO",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/settings-branch.html",
+  "title": "Branch Settings",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/users.html",
+  "title": "Users",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/roles.html",
+  "title": "Roles",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/audit-logs.html",
+  "title": "Audit Logs",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/mp-partners.html",
+  "title": "Partners",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/mp-applications.html",
+  "title": "Partner Applications",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/mp-commission.html",
+  "title": "Commission & Settlement",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/mp-payouts.html",
+  "title": "Payouts",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/turf-master.html",
+  "title": "Turf Master",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/block-slots.html",
+  "title": "Block Slots",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/pricing.html",
+  "title": "Pricing and Rates",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/weather.html",
+  "title": "Weather Board",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/pos.html",
+  "title": "POS",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/ledger.html",
+  "title": "Collections Ledger",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/daily-closing.html",
+  "title": "Daily Closing",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/reports.html",
+  "title": "Reports & Analytics",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/payroll.html",
+  "title": "Payroll",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/payslip.html",
+  "title": "Payslip — Lima Begum",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/academy.html",
+  "title": "Academy",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/live-scoreboard.html",
+  "title": "Live Scoreboard",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/tournament-builder.html",
+  "title": "Tournament Builder",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/dashboard.html",
+  "title": "Dashboard",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/bookings.html",
+  "title": "Bookings",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/booking-detail.html",
+  "title": "Booking TPB-261113-4821",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/booking-new.html",
+  "title": "New Booking",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/calendar.html",
+  "title": "Calendar",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/check-in.html",
+  "title": "Check-in",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/front-desk.html",
+  "title": "Front Desk Mode",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/customer-detail.html",
+  "title": "Customer — Rafiq Hasan",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/ticket-detail.html",
+  "title": "Ticket SUP-4471",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/corporate-detail.html",
+  "title": "Corporate — Brac IT Ltd.",
+  "layout": "admin",
+  "group": ""
+ },
+ {
+  "out": "admin/login.html",
+  "title": "Staff Login",
+  "layout": "auth",
+  "group": ""
+ },
+ {
+  "out": "admin/two-factor.html",
+  "title": "Two-factor Verification",
+  "layout": "auth",
+  "group": ""
+ },
+ {
+  "out": "booking.html",
+  "title": "Book a Turf Slot",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "offers.html",
+  "title": "Offers & Promotions",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "events.html",
+  "title": "Events & Parties",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "tournaments.html",
+  "title": "Tournaments",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "tournament-detail.html",
+  "title": "Dhaka 7s Winter Cup 2026",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "live-scoreboard.html",
+  "title": "Live Scoreboard",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "memberships.html",
+  "title": "Memberships & Packages",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "corporate-booking.html",
+  "title": "Corporate & Group Booking",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "academy.html",
+  "title": "Academy & Coaching",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "academy-program.html",
+  "title": "Junior Football Program",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "coach-profile.html",
+  "title": "Coach Shafiq — Profile",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "rentals-shop.html",
+  "title": "Rentals & Shop",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "find-players.html",
+  "title": "Find Players",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "open-matches.html",
+  "title": "Open Matches",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "open-match-detail.html",
+  "title": "Open Match — Tonight 9 PM",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "teams-leaderboard.html",
+  "title": "Teams & Leaderboard",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "blog.html",
+  "title": "Blog & News",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "blog-article.html",
+  "title": "7 Five-a-side Tactics That Win More Games",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "reviews.html",
+  "title": "Reviews & Testimonials",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "partners.html",
+  "title": "Partners & Sponsors",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "referral.html",
+  "title": "Refer & Earn",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "partner-with-us.html",
+  "title": "List Your Turf (Partners)",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "docs-api.html",
+  "title": "API Reference (planned)",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "faq.html",
+  "title": "Frequently Asked Questions",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "help.html",
+  "title": "Help Center",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "help-article.html",
+  "title": "How to Split the Booking Cost",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "support-ticket.html",
+  "title": "Support Ticket",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "terms.html",
+  "title": "Terms & Conditions",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "privacy.html",
+  "title": "Privacy Policy",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "refund-policy.html",
+  "title": "Refund Policy",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "cancellation-policy.html",
+  "title": "Cancellation Policy",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "cookie-policy.html",
+  "title": "Cookie Policy",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "ground-rules.html",
+  "title": "Safety & Ground Rules",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "community-guidelines.html",
+  "title": "Community Guidelines",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "waiver.html",
+  "title": "Digital Waiver",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "accessibility.html",
+  "title": "Accessibility Information",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "sitemap.html",
+  "title": "Sitemap",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "template-index.html",
+  "title": "Template Index — All Pages",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "style-guide.html",
+  "title": "Design System & Style Guide",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "index.html",
+  "title": "Home",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "booking-success.html",
+  "title": "Booking Confirmed",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "payment-processing.html",
+  "title": "Processing Payment",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "payment-failed.html",
+  "title": "Payment Failed",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "payment-pending.html",
+  "title": "Payment Pending",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "payment-cancelled.html",
+  "title": "Payment Cancelled",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "reschedule.html",
+  "title": "Reschedule Booking",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "cancel-booking.html",
+  "title": "Cancel Booking",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "refund-status.html",
+  "title": "Refund Status",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "review-feedback.html",
+  "title": "Rate Your Game",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "search-results.html",
+  "title": "Search Results",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "no-results.html",
+  "title": "No Results",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "no-slot.html",
+  "title": "No Available Slot",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "session-expired.html",
+  "title": "Session Expired",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "access-denied.html",
+  "title": "Access Denied",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "404.html",
+  "title": "Page Not Found",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "500.html",
+  "title": "Something Went Wrong",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "maintenance.html",
+  "title": "Scheduled Maintenance",
+  "layout": "bare",
+  "group": ""
+ },
+ {
+  "out": "offline.html",
+  "title": "You Are Offline",
+  "layout": "bare",
+  "group": ""
+ },
+ {
+  "out": "about.html",
+  "title": "About Us",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "arena-overview.html",
+  "title": "Arena Overview",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "turfs.html",
+  "title": "Turfs & Courts",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "turf-detail.html",
+  "title": "Pitch A — Premier 7s",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "locations.html",
+  "title": "Branches & Locations",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "location-detail.html",
+  "title": "Dhanmondi Turf — Location",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "sports.html",
+  "title": "Sports",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "sport-detail.html",
+  "title": "Football Turf in Dhaka",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "pricing.html",
+  "title": "Pricing & Rates",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "gallery.html",
+  "title": "Gallery",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "amenities.html",
+  "title": "Amenities & Facilities",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "contact.html",
+  "title": "Contact Us",
+  "layout": "public",
+  "group": ""
+ },
+ {
+  "out": "directions.html",
+  "title": "Directions & Map",
+  "layout": "public",
+  "group": ""
+ }
+]
