@@ -1,5 +1,5 @@
 // Navigation structures shared by the layouts, the HTML sitemap and the
-// template index. Paths are relative to dist/.
+// template index. Paths are relative to the built site root (docs/).
 
 export const BRAND = {
   name: 'TurfPro Arena', tagline: 'Play · Book · Compete', phone: '+880 1711-000000', phoneHref: 'tel:+8801711000000',

@@ -15,20 +15,46 @@ CMS, settings and security.
 - **Installable PWA** (manifest, service worker, offline page)
 - **No dependencies at runtime.** Pages open straight from disk (`file://`).
 
-## Quick start
+## Live site (GitHub Pages)
 
-Open `dist/index.html` in a browser. That's it.
+**https://webnurullah.github.io/turf_management_system/**
+
+The built website lives in the `docs/` folder of the `main` branch, which GitHub Pages publishes directly.
+One-time setup in GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch →
+Branch: `main` / folder: `/docs` → Save**. The link above goes live within a minute or two, and every
+later push to `main` updates it automatically.
+
+| Live page | What you'll see |
+|-----------|-----------------|
+| [Home](https://webnurullah.github.io/turf_management_system/) | Public website |
+| [All pages](https://webnurullah.github.io/turf_management_system/template-index.html) | Every screen, grouped |
+| [Booking](https://webnurullah.github.io/turf_management_system/booking.html) | Booking engine |
+| [Customer account](https://webnurullah.github.io/turf_management_system/account/index.html) | Customer dashboard |
+| [Management system](https://webnurullah.github.io/turf_management_system/admin/dashboard.html) | Back office |
+
+## Folder layout
+
+| Folder | Contents |
+|--------|----------|
+| `docs/` | **The built website** (what GitHub Pages serves). Generated, so don't edit by hand |
+| `src/` | Editable source: pages, styles, scripts, images |
+| `build/` | Build, link-check and local preview scripts |
+| `documentation/` | Developer & staff guides |
+
+## Quick start (offline)
+
+Download the repo and open `docs/index.html` in a browser. That's it.
 
 Other entry points:
 
 | Open | What you'll see |
 |------|-----------------|
-| `dist/template-index.html` | Links to every page, grouped |
-| `dist/booking.html` | The booking engine (live slots, split pitch, cart, coupons, payment) |
-| `dist/account/index.html` | Customer dashboard |
-| `dist/admin/dashboard.html` | Management dashboard |
-| `dist/style-guide.html` | Design system: colours, type, components |
-| `dist/docs-api.html` | Planned REST API the screens map to |
+| `docs/template-index.html` | Links to every page, grouped |
+| `docs/booking.html` | The booking engine (live slots, split pitch, cart, coupons, payment) |
+| `docs/account/index.html` | Customer dashboard |
+| `docs/admin/dashboard.html` | Management dashboard |
+| `docs/style-guide.html` | Design system: colours, type, components |
+| `docs/docs-api.html` | Planned REST API the screens map to |
 
 To test the PWA and service worker, serve over HTTP:
 
@@ -50,7 +76,7 @@ npm run build
 npm run check
 ```
 
-`build` writes everything to `dist/` (Node 18+, no npm install needed). `check` verifies every internal link and asset.
+`build` writes the website to `docs/` (Node 18+, no npm install needed). `check` verifies every internal link and asset.
 
 ```
 src/
@@ -67,7 +93,7 @@ src/
   admin/crud.mjs     Generator for those list screens (KPIs, filters, table, create drawer)
   pages/             One module per page group: public/, account/, admin/
 build/
-  build.mjs          Assembles pages → dist/
+  build.mjs          Assembles pages → docs/ (the folder GitHub Pages publishes)
   check-links.mjs    Fails on any broken internal link
   serve.mjs          Tiny static server for PWA testing
 ```
@@ -98,16 +124,16 @@ licence for. Don't copy images from Google search results.
 | EN/BN switch, dark mode for staff, PWA install + offline page | Server-rendered `/bn/` pages for SEO |
 
 **Payments, SMS, WhatsApp and email are not connected.** Gateway screens are labelled *Sandbox*. To go
-live you need merchant accounts and credentials. See [`docs/INTEGRATIONS.md`](docs/INTEGRATIONS.md).
+live you need merchant accounts and credentials. See [`documentation/INTEGRATIONS.md`](documentation/INTEGRATIONS.md).
 
 **Legal pages contain placeholder text** and must be reviewed by a qualified Bangladeshi lawyer before launch.
 
 ## Documentation
 
-- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md): recommended production stack, data model, booking/payment/refund state machines, conflict-prevention design, permissions
-- [`docs/INTEGRATIONS.md`](docs/INTEGRATIONS.md): payment gateways, SMS, WhatsApp, email, maps, analytics: what each needs
-- [`docs/STAFF-GUIDE.md`](docs/STAFF-GUIDE.md): front-desk and administrator quick guide
-- [`dist/docs-api.html`](dist/docs-api.html): planned REST endpoints
+- [`documentation/ARCHITECTURE.md`](documentation/ARCHITECTURE.md): recommended production stack, data model, booking/payment/refund state machines, conflict-prevention design, permissions
+- [`documentation/INTEGRATIONS.md`](documentation/INTEGRATIONS.md): payment gateways, SMS, WhatsApp, email, maps, analytics: what each needs
+- [`documentation/STAFF-GUIDE.md`](documentation/STAFF-GUIDE.md): front-desk and administrator quick guide
+- [`docs/docs-api.html`](docs/docs-api.html): planned REST endpoints
 
 ## Quality checks run on this template
 

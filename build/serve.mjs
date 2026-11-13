@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-// Minimal static server for dist/ (needed for the service worker / PWA install).
+// Minimal static server for docs/ (the built site) (needed for the service worker / PWA install).
 import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import { join, extname, dirname, normalize } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const DIST = join(dirname(fileURLToPath(import.meta.url)), '..', 'dist');
+const DIST = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs');
 const PORT = +process.env.PORT || 8080;
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.webp': 'image/webp', '.avif': 'image/avif', '.webmanifest': 'application/manifest+json', '.xml': 'application/xml', '.txt': 'text/plain' };
 createServer(async (req, res) => {

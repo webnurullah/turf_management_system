@@ -13,7 +13,7 @@ function head(p) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>${esc(title)}</title>
+${p.out === '404.html' ? `<script>/* GitHub Pages serves 404.html at any missing URL: point relative links back to the site root (project pages live under /<repo>/) */(function(){var s=location.pathname.split('/');var root=/\\.github\\.io$/.test(location.hostname)&&s.length>2?'/'+s[1]+'/':'/';if(location.protocol!=='file:'){var b=document.createElement('base');b.href=root;document.head.appendChild(b);}})();</script>\n` : ''}<title>${esc(title)}</title>
 <meta name="description" content="${attr(desc)}">
 ${noindex ? '<meta name="robots" content="noindex, nofollow">' : `<link rel="canonical" href="${url}">\n<link rel="alternate" hreflang="en" href="${url}">\n<link rel="alternate" hreflang="bn" href="${BRAND.domain}/bn/${p.out.replace(/index\.html$/, '')}">`}
 <meta property="og:type" content="${p.ogType || 'website'}">

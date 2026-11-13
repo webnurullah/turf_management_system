@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Zero-dependency static build: assembles src/pages/**/*.mjs into dist/ as
+// Zero-dependency static build: assembles src/pages/**/*.mjs into docs/ (GitHub Pages folder) as
 // standalone HTML files that work from file:// or any static host.
 import { readdir, readFile, writeFile, mkdir, rm, cp, stat } from 'node:fs/promises';
 import { join, dirname, relative, extname } from 'node:path';
@@ -7,7 +7,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = join(ROOT, 'src');
-const DIST = join(ROOT, 'dist');
+const DIST = join(ROOT, 'docs'); // GitHub Pages serves main → /docs
 
 const { LAYOUTS } = await import(pathToFileURL(join(SRC, 'layouts.mjs')));
 const { BRAND } = await import(pathToFileURL(join(SRC, 'nav.mjs')));

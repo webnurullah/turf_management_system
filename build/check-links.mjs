@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-// Crawls dist/ and verifies every internal href/src points to a real file.
+// Crawls docs/ (the built site) and verifies every internal href/src points to a real file.
 // Optional photo slots (assets/img/photos/*) are listed separately: they fall
 // back to illustrations when missing, so they are not errors.
 import { readdir, readFile, access } from 'node:fs/promises';
 import { join, dirname, resolve, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const DIST = join(dirname(fileURLToPath(import.meta.url)), '..', 'dist');
+const DIST = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs');
 async function walk(d) { const o = []; for (const e of await readdir(d, { withFileTypes: true })) { const p = join(d, e.name); e.isDirectory() ? o.push(...await walk(p)) : o.push(p); } return o; }
 const exists = (p) => access(p).then(() => true, () => false);
 

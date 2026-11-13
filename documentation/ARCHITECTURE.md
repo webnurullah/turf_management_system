@@ -8,7 +8,7 @@ developers who will build the backend. The template's screens, field names and s
 | Layer | Choice | Notes |
 |---|---|---|
 | Web app | Next.js (App Router) + TypeScript | Reuse `src/assets/css` as-is or port tokens to Tailwind. SSR for public pages; `/bn/*` routes for Bangla SEO |
-| API | REST under `/api/v1` (see `dist/docs-api.html`) | Service layer per domain; Zod validation; OpenAPI generated from schemas |
+| API | REST under `/api/v1` (see `docs/docs-api.html` or the live site) | Service layer per domain; Zod validation; OpenAPI generated from schemas |
 | Database | PostgreSQL 15+ | Exclusion constraints for slot conflicts, append-only ledger, row-level branch scoping |
 | Cache / locks / queues | Redis + BullMQ | Short slot locks, hold expiry, webhook / notification / report workers |
 | Storage | S3-compatible (R2/S3) + CDN | Photos (WebP/AVIF), receipts, documents; malware scan on upload |
